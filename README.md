@@ -48,3 +48,16 @@
 如果为了获得整篇文章文本，可以考虑使用学校免费提供的 Adobe Acrobat（[北京大学软件平台](https://software.w.pku.edu.cn/) > 使用帮助 > ADOBE ID）, 福昕（[北京大学软件平台](https://software.w.pku.edu.cn/) > 福昕 PDF 编辑软件） 等进行扫描。
 
 如果只需要获得某一段落或部分文本，考虑使用如 [白描](https://baimiao.uzero.cn/)、[Bob](https://github.com/ripperhe/Bob) 等 OCR 工具进行小段落内容识别。
+
+# 新的修改
+学位论文库添加了水印，包含了下载者的IP地址与访问时间，传播有风险。去除水印的方法可通过调节亮度与对比度的方式，但是可能会损失部分信息。
+
+修改后的脚本要求提供`filename`参数，获取方式如下：
+
+进入阅读界面后，打开开发人员工具（Ctrl+shift+I），转到网络（network），刷新页面后，会出现一系列如下请求：
+![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/d47fbbf7-a70e-4544-9eef-5777ccfcdfaf)
+点击红框中的以`jumpServlet?`开头的请求，如下：
+![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/4b09088c-d5a0-478b-b777-968114031a16)
+`xxxxxxxxx.pdf`即为`filename`参数，复制下来，粘贴进如下界面：
+![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/78eefcb9-937a-4891-b5b1-92f74eed7d26)
+
