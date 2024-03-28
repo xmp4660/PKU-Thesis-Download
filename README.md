@@ -61,3 +61,8 @@
 `xxxxxxxxx.pdf`即为`filename`参数，复制下来，粘贴进如下界面：
 ![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/78eefcb9-937a-4891-b5b1-92f74eed7d26)
 
+# 如何安装？
+修改后的插件未发布于GreasyFork，所有无法一键安装。点击添加新脚本后，将`main.js`中的全部内容复制进去即可
+![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/42c1ff4b-d3f7-4aa6-87a3-1845af5da352)
+![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/5fb9d17d-bc32-40bf-b994-035ee0929990)
+
