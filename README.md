@@ -50,7 +50,9 @@
 如果只需要获得某一段落或部分文本，考虑使用如 [白描](https://baimiao.uzero.cn/)、[Bob](https://github.com/ripperhe/Bob) 等 OCR 工具进行小段落内容识别。
 
 # 新的修改
-学位论文库添加了水印，包含了下载者的IP地址与访问时间，传播有风险。去除水印的方法可通过调节亮度与对比度的方式，但是可能会损失部分信息。
+学位论文库更新后，为论文的每一页都添加了水印，包含了下载者的IP地址与访问时间，故传播有风险。
+
+去除水印可通过调节亮度与对比度的方式，但是可能会损失部分信息。
 
 修改后的脚本要求提供`filename`参数，获取方式如下：
 
@@ -62,7 +64,7 @@
 ![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/78eefcb9-937a-4891-b5b1-92f74eed7d26)
 
 # 如何安装？
-修改后的插件未发布于GreasyFork，所有无法一键安装。点击添加新脚本后，将`main.js`中的全部内容复制进去即可
+修改后的插件未发布于GreasyFork，所以无法一键安装，需要手动添加脚本。点击添加新脚本后，将`main.js`中的全部内容复制进去即可
 ![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/42c1ff4b-d3f7-4aa6-87a3-1845af5da352)
 ![image](https://github.com/xmp4660/PKU-Thesis-Download/assets/62226429/5fb9d17d-bc32-40bf-b994-035ee0929990)
 
